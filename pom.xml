@@ -27,9 +27,12 @@
         <uniqueVersion>false</uniqueVersion>
         <id>corp1</id>
         <name>Corporate Repository</name>
-        <url>file:////home/tom/unit/target</url>
+        <url>file:/home/tom/unit/target</url>
         <layout>default</layout>
     </repository>
 </distributionManagement>
-
+<properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
 </project>
